@@ -8,6 +8,9 @@ class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int n = 1;
+        for(int i = 0;i<10;i++ ){
+            System.out.println(n*i);
+        }
         switch(n) {
             case 1 :
                 System.out.println(a+b);
